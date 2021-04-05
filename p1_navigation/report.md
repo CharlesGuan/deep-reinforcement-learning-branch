@@ -119,8 +119,8 @@ Also, experience replay improves learning through repetition. By doing multiple 
 ### 4. Run Experiments
 Now it's time to measure the agent's performance within the Banana environment. Performance is measured by the fewest number of episodes (from 1-300) required to solve the environment.  The first plot below shows the perfomrance from training and the second plot shows the perfomrance from testing
 
-<img src="Training_Performance.png" width="80%" align="top-left" alt="" title="Experiment Performance" />
-<img src="Performance.png" width="80%" align="top-left" alt="" title="Experiment Performance" />
+<img src="Training_Performance.png" width="50%" align="top-left" alt="" title="Experiment Performance" />
+<img src="Performance.png" width="50%" align="top-left" alt="" title="Experiment Performance" />
 
 
 ##### &nbsp;
