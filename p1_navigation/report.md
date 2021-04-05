@@ -112,14 +112,14 @@ Each experience is stored in a replay buffer as the agent interacts with the env
 
 Also, experience replay improves learning through repetition. By doing multiple passes over the data, our agent has multiple opportunities to learn from a single experience tuple. This is particularly useful for state-action pairs that occur infrequently within the environment.
 
-The implementation of the replay buffer can be found [here](https://github.com/tommytracey/DeepRL-P1-Navigation/blob/master/agent.py#L133) in the `agent.py` file of the source code.
 
 
 ##### &nbsp;
 
 ### 4. Run Experiments
-Now it's time to measure the agent's performance within the Banana environment. Performance is measured by the fewest number of episodes required to solve the environment.  The plot below shows the perfomrance 
+Now it's time to measure the agent's performance within the Banana environment. Performance is measured by the fewest number of episodes (from 1-300) required to solve the environment.  The first plot below shows the perfomrance from training and the second plot shows the perfomrance from testing
 
+<img src="Training_Performance.png" width="80%" align="top-left" alt="" title="Experiment Performance" />
 <img src="Performance.png" width="80%" align="top-left" alt="" title="Experiment Performance" />
 
 
@@ -129,8 +129,8 @@ Now it's time to measure the agent's performance within the Banana environment. 
 ##### &nbsp;
 
 ## Future Improvements
-- **Test the replay buffer** &mdash; Implement a way to enable/disable the replay buffer. As mentioned before, all agents utilized the replay buffer. Therefore, the test results don't measure the impact the replay buffer has on performance.
-- **Add *prioritized* experience replay** &mdash; Rather than selecting experience tuples randomly, prioritized replay selects experiences based on a priority value that is correlated with the magnitude of error. This can improve learning by increasing the probability that rare and important experience vectors are sampled.
+
+- **Add *prioritized* experience replay** &mdash; Rather than selecting experience randomly, prioritized replay selects experiences based on a priority value that is correlated with the magnitude of error. This can improve learning by increasing the probability that rare and important experience vectors are sampled.
 - **Replace conventional exploration heuristics with Noisy DQN** &mdash; This approach is explained [here](https://arxiv.org/abs/1706.10295) in this research paper. The key takeaway is that parametric noise is added to the weights to induce stochasticity to the agent's policy, yielding more efficient exploration.
 
 ##### &nbsp;
