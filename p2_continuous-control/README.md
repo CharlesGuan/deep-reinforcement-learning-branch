@@ -27,6 +27,13 @@ The observation space consists of 33 variables corresponding to position, rotati
 
 The environment is considered solved if a reward of +100 is obtain for 30 consecutive episodes.
 
+### Files
+There are 3 major files in this project: model, agent and continuous_control as explained below:
+•	model.py contains the architecture for actor and critic networks 
+•	agent.py File containing the actor/critic classes, which produce continuous actions given a specific state, update four networks (actor and critic vs local and target), and buffer learning experiences (sate, action reward, next state) for efficient training. 
+•	Continuous_Control.ipynb instantiates the agent and manages the interactions between the Agent class and the environment.
+
+
 The method to use is an actor-critic algorithm, the Deep Deterministic Policy Gradients (DDPG) algorithm.
 
 ## Getting started
