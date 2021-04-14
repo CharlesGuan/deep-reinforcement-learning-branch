@@ -8,7 +8,7 @@
 
 ### Introduction
 
-For this project, the [Reacher] is used.  (https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment.
+For this project, the environment [Reacher] is used.  (https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher).
 
 ![Trained Agent][image1]
 
