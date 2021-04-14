@@ -20,7 +20,7 @@ The observation space consists of 33 variables corresponding to position, rotati
 
 For this project, the version contains 20 identical agents, each with its own copy of the environment.  The version is useful for algorithms like [PPO](https://arxiv.org/pdf/1707.06347.pdf), [A3C](https://arxiv.org/pdf/1602.01783.pdf), and [D4PG](https://openreview.net/pdf?id=SyZipzbCb) that use multiple (non-interacting, parallel) copies of the same agent to distribute the task of gathering experience. 
 
-The barrier for solving the second version of the environment is to take into account the presence of many agents.  In particular, the agents must get an average score of +30 (over 100 consecutive episodes, and over all agents).  The environment is considered solved, when the average (over 100 episodes) of those average scores is at least +30. 
+The barrier for solving the version of the environment is to take into account the presence of many agents.  In particular, the agents must get an average score of +30 (over 100 consecutive episodes, and over all agents).  The environment is considered solved, when the average (over 100 episodes) of those average scores is at least +30. 
 
 The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1.
 
