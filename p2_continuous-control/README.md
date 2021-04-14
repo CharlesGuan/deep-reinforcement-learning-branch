@@ -49,7 +49,7 @@ There are 6 major files in this project as explained below:
 1. model.py contains the architecture for actor and critic networks 
 2. agent.py File containing the actor/critic classes, which produce continuous actions given a specific state, update four networks (actor and critic vs local and target), and buffer learning experiences (sate, action reward, next state) for efficient training. 
 3. Continuous_Control.ipynb instantiates the agent and manages the interactions between the Agent class and the environment.
-4. Report summarizes the approach and results
+4. Report summarizes the approach, results and ideas for future works
 5. ck_actor.pth and ck_critic.pth save the network weights for retraining
 
 
