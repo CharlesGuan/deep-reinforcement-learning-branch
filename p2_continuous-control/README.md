@@ -44,9 +44,12 @@ The method to use is an actor-critic algorithm, the Deep Deterministic Policy Gr
 4. The training can be run directly in the notebook
 
 ### Files
-There are 3 major files in this project: model, agent and continuous_control as explained below:
+There are 6 major files in this project as explained below:
 
 1. model.py contains the architecture for actor and critic networks 
 2. agent.py File containing the actor/critic classes, which produce continuous actions given a specific state, update four networks (actor and critic vs local and target), and buffer learning experiences (sate, action reward, next state) for efficient training. 
 3. Continuous_Control.ipynb instantiates the agent and manages the interactions between the Agent class and the environment.
+4. Report summarizes the approach and results
+5. ck_actor.pth and ck_critic.pth save the network weights for retraining
+
 
