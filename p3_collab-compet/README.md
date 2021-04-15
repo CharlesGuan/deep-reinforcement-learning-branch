@@ -42,7 +42,7 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 The project uses Jupyter Notebook. This command needs to be run to install the needed packages:
 
-!pip -q install ./python
+    !pip -q install ./python
 
 Execute the Tennis.ipynb to get started with the agent in the tennis game
 
