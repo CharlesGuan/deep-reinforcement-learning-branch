@@ -40,11 +40,11 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 ### Instructions
 
-The project uses Jupyter Notebook. This command needs to be run to install the needed packages:
-
+The project may need  the package from the link below, and you can run the script to install if necessary
+    https://github.com/CharlesGuan/deep-reinforcement-learning-branch/tree/master/python 
     !pip -q install ./python
 
-Execute the Tennis.ipynb to get started with the agent in the tennis game
+Then you can execute the Tennis.ipynb to get started with the agent in the tennis game
 
 ### Files
 There are 6 major files in this project as explained below:
