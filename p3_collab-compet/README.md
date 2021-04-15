@@ -44,8 +44,8 @@ Execute the Tennis.ipynb to get started with the two agents
 ### Files
 There are 6 major files in this project as explained below:
 
-1. model.py contains the architecture for actor and critic networks
-2. agent.py File containing the actor/critic classes, which produce continuous actions given a specific state of agent itself, generate Q value using one agent's state and action together with the other agent's action, then update four networks (actor and critic vs local and target), and buffer learning experiences (sate, action reward, next state) for efficient training.
+1. The file model.py contains the architecture for actor and critic networks
+2. The file agent.py  containing the actor/critic classes, which produce continuous actions given a specific state of agent itself, generate Q value using one agent's state and action together with the other agent's action, then update four networks (actor and critic vs local and target), and buffer learning experiences (sate, action reward, next state) for efficient training.
 3. Tennis.ipynb instantiates the agent and manages the interactions between the two Agents in the environment.
 4. Report summarizes the approach, results and ideas for future works
 5. ck_actor.pth and ck_critic.pth save the network weights for retraining
