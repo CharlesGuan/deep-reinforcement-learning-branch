@@ -42,7 +42,7 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 The project may need  the package from the link below, and you can run the script to install if necessary
 
-    https://github.com/CharlesGuan/deep-reinforcement-learning-branch/tree/master/python 
+    [click here](https://github.com/CharlesGuan/deep-reinforcement-learning-branch/tree/master/python)
     
     !pip -q install ./python
 
