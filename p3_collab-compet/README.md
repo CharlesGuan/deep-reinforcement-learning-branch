@@ -40,9 +40,9 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 ### Instructions
 
-The project may need  the package from [this link](https://github.com/CharlesGuan/deep-reinforcement-learning-branch/tree/master/python), and you can run the script to install if necessary
-
-    !pip -q install ./python
+Install the dependencies under the folder [python/] (https://github.com/udacity/deep-reinforcement-learning/tree/master/python).
+	cd python
+	pip install .
 
 Then you can execute the Tennis.ipynb to get started with the agent in the tennis game
 
